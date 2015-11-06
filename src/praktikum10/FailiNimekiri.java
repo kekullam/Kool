@@ -13,12 +13,13 @@ public class FailiNimekiri {
 
         for (File file : failid) {
             if (file.isDirectory()) {
-                System.out.print("Kataloog: ");
+                System.out.println("Kataloog: " + file.getName());
+                trykiFailid(file.getAbsolutePath());
             }
             else {
                 System.out.print("Fail:     ");
+                System.out.println(file.getName());
             }
-            System.out.println(file.getAbsoluteFile());
         }
     }
 

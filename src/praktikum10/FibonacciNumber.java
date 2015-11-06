@@ -11,7 +11,7 @@ public class FibonacciNumber {
 
 	}
 
-	public static int fibonacci(int n) {
+	public static long fibonacci(int n) {
 		if (n == 0) {
 			return 0;
 		}
