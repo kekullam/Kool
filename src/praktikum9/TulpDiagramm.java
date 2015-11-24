@@ -18,7 +18,7 @@ public class TulpDiagramm {
 			numbrid.add(number);
 		}
 		if (number == 0) {
-			System.out.println(numbrid + arvX(numbrid));
+
 
 		}
 		userInput.close();
