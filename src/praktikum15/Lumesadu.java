@@ -1,5 +1,7 @@
 package praktikum15;
 
+import java.util.ArrayList;
+
 /**
  * Created by kekullam on 27.11.15.
  */

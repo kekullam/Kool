@@ -34,32 +34,4 @@ public class GraafikaNaide extends Application {
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
-
-    private void joonista(GraphicsContext gc) {
-
-        // Määrame värvid
-        gc.setFill(Color.GREEN);
-        gc.setStroke(Color.BLUE);
-
-        // Joone laius
-        gc.setLineWidth(5);
-
-        // Tegelase roheline pea
-        gc.fillRoundRect(50, 50, 300, 300, 40, 40);
-
-        // Suu
-        gc.strokeLine(100, 300, 300, 300);
-
-        // Silmad
-        gc.strokeOval(100, 100, 50, 50);
-        gc.strokeOval(250, 100, 50, 50);
-
-        // Värvivahetus
-        gc.setFill(Color.RED);
-
-        // Punane nina
-        gc.fillRoundRect(175, 200, 50, 50, 10, 10);
-
-        gc.fillText("Olen roheline mehike Marsilt", 100, 370);
-    }
 }

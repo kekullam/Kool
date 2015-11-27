@@ -1,11 +1,15 @@
 package praktikum15;
 
+import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.paint.Color;
+
 /**
  * Created by kekullam on 27.11.15.
  */
 public class Lumehelves {
     int x;
     int y;
+
 
     public Lumehelves(int x, int y) {
         this.x = x;
