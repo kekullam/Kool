@@ -11,16 +11,16 @@ public class V2iksemadAritmKeskmisest {
     public static void main(String[] args) {
         double[] d = {0.1,0.2,0.3,5.,6.,7.,8.};
         System.out.println(allaKeskmise(d));
-        
+
     }
 
     public static int allaKeskmise(double[] d ) {
-        int sum = 0;
+        double sum = 0;
         int count = 0;
         for (double el : d) {
             sum += el;
         }
-        int aritKesk = sum / d.length;
+        double aritKesk = sum / d.length;
         for (double el:d) {
             if (el<aritKesk) {
                 count++;
