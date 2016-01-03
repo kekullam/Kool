@@ -1,4 +1,4 @@
-package praktikum12;
+package praktikum12USEFUL;
 
 /**
  * Created by Kerdo Kullamäe on 16.11.2015.
