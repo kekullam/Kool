@@ -10,7 +10,8 @@ public class RidadeSumma {
                 {2, 3, 4, 5, 6},
                 {3, 4, 5, 6, 7},
                 {4, 5, 6, 7, 8},
-                {5, 6, 7, 8, 9},
+                {5, 6, 7, 8, 9,10,10},
+                {5}
         };
 
         int[] summad= ridadeSumma(neo);
@@ -24,7 +25,7 @@ public class RidadeSumma {
     public static int[] ridadeSumma(int[][] maatriks){
         int[] sum = new int[maatriks.length];
         for (int i=0; i<maatriks.length;i++) {
-            for (int j=0;j<maatriks[0].length;j++) {
+            for (int j=0;j<maatriks[i].length;j++) {
                 sum[i] += maatriks[i][j];
             }
         }
