@@ -18,6 +18,13 @@ public class MaatriksiVeeruMaxid {
                 {4,5,0,2},
                 {2,6,8,10,3,6,20}};
 
+       // for (int i=0;i<maatriks.length;i++) {
+         //   for (int j = 0; j < maatriks[i].length; j++) {
+           //     System.out.print(j + " ");
+             //   System.out.println(maatriks[i].length);
+           // }
+        // }
+
         int[] res = veeruMaxid(maatriks);
 
         for (int i = 0;i<res.length;i++) {

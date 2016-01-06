@@ -28,7 +28,7 @@ public class MaatriksiVeeruMinid {
     public static int[] veeruMinid(int[][] m) {
         int res = 0;
 
-        //Leiame kõige pikema rea pikkuse
+        //Leiame kõige pikema rea pikkuse (RIDA == i)
         for (int rida=0;rida<m.length;rida++) {
             if (res < m[rida].length)
                 res = m[rida].length;
