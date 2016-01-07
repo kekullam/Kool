@@ -1,4 +1,4 @@
-package praktikum1;
+package praktikum4;
 
 /**
  * This class implements a simple program that

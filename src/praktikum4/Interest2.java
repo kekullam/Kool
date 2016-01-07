@@ -1,4 +1,4 @@
-package praktikum1;
+package praktikum4;
 
 import lib.TextIO;
 
