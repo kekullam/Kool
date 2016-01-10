@@ -15,16 +15,19 @@ public class J2rjekorra6mberp66ramine {
 
     }
 
-    public static int inverse (int n) {
+    public static int inverse(int n) {
         int backwards = 0;
         int rest = 0;
 
-        do {
-            rest = n%10;
-            backwards = backwards*10 + rest;
-            n = n/10;
-        } while (n>0);
-        return backwards;
+
+        while (n > 0)
+        {
+            rest = n % 10;
+            backwards = backwards * 10 + rest;
+            n = n / 10;
+
         }
+        return backwards;
     }
+}
 
